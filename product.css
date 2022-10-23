@@ -1,0 +1,324 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Tahoma,sans-serif,Helvetica,Arial;
+    margin: 0px;
+    height: 100%;
+    color: #555555;
+    font-size: 14px;
+    /* min-height: 755px; */
+}
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+.nav-main-menu {
+    border-bottom: 2px solid #eaeaea;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.content-div {
+    margin: 0 15% 0 15%;
+}
+
+.clear {
+    display: flex;
+   
+    position: relative;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.content-img {
+    padding: 15px 70px 15px 30px;
+    background-color: white;
+    width: 30%;
+    display: flex;
+    margin: 75px auto auto auto;
+    position: relative;
+    height: 435px;
+}
+
+.next-img {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    font-size: 40px;
+    cursor: pointer;
+   
+    color: #01a14b;
+    font-weight: 600;
+}
+
+.content-details {
+    width: 70%;
+    padding: 15px;
+}
+
+.content-details h2 {
+    color: #212121;
+    font-size: 26px;
+    font-weight: 400;
+    
+    margin-top: 0;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    
+}
+.row1-col1-2 {
+    display: flex;
+}
+
+.row1-col3-4 {
+    display: flex;
+}
+
+.row1-col1 {
+    font-weight: 400;
+}
+
+.row1 h4 {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.row1 h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 21.280px;
+    margin-bottom: 21.280px;
+}
+
+.row1-col2 {
+    margin: 0 20px 0 20px;
+    
+}
+
+.row1-col3 {
+    margin: 0 20px 0 20px;
+}
+
+.row1-col4 {
+    margin: 0 20px 0 20px;
+}
+
+.version {
+    margin-bottom: 20px;
+}
+
+.version select{
+    border: 2px solid #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+
+
+
+.content-price {
+    display: inline-block;
+    color: #01a14b;
+    font-size: 30px;
+}
+
+.content-price del {
+    margin-left: 15px;
+    color: #b0b0b0;
+    font-size: 28px;
+}
+
+.add-product {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.quantity {
+    display: flex;
+ 
+}
+
+.quantity input {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin: 0 1px 0 1px;
+    font-size: 16px;
+    
+}
+
+.quantity-plus {
+    width: 50px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.quantity-minus {
+    width: 50px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+}
+
+.number {
+    width: 10px;
+}
+
+.add-to-cart {
+   margin-left: 10px;
+}
+
+.add-to-cart button {
+    height: 100%;
+    border-radius: 5px;
+    background: #01a14b;
+    border-radius: 4px;
+    border-color: #01a14b;
+    color: #fff;
+    padding: 0 30px 0 30px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.doc-thu {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  
+}
+
+.doc-thu-btn {
+    color: #fff;
+    background: #01a14b;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.box-comment {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #c9c9c9;
+    
+}
+.box-comment h3 {
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+  
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-comment {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-comment img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.add-comment input {
+    width: 80%;
+    
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 1px solid #c9c9c9;
+}
+
+.related-book-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    
+}
+.author h3 {
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;    
+}
+
+.related-book-items .item {
+    width: 25%;
+  
+}
+
+.related-book-items .item img {
+    width: 100%;
+    height: 397px;
+}
+
+.related-book-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    color: #212121;
+    font-size: 16px;    
+    font-weight: 300;
+    white-space: initial;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.related-book-price {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.related-book-price span {
+    font-size: 16px;
+    color: #01a14b;
+   
+    margin-right: 4px;
+    font-weight: 400;
+}
+.related-book-price del {
+    color: #b0b0b0;
+}
