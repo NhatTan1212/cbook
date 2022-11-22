@@ -1875,5 +1875,26 @@ ul {
         #animation2 {
             margin-left: 15px;
         }
-    
+
+        .footer-img-div {
+            width: 70%;
+        }
+
+        .footer-dangky {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .footer-input {
+            width: 90%;
+        }
+
+        .footer-input input {
+            width: 100%;
+        }
+        
+        .bct-img {
+            width: 163px;
+            margin-top: 20px;
+        }
     }
